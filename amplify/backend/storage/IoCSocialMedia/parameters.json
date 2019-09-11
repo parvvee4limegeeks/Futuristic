@@ -1,0 +1,7 @@
+{
+    "tableName": "IoCSocialMedia",
+    "partitionKeyName": "SM_Network",
+    "partitionKeyType": "S",
+    "sortKeyName": "SM_Type",
+    "sortKeyType": "S"
+}

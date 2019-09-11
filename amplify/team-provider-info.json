@@ -9,6 +9,11 @@
             "UnauthRoleName": "futuristic-dev-20190910171819-unauthRole",
             "StackName": "futuristic-dev-20190910171819",
             "StackId": "arn:aws:cloudformation:ap-south-1:778079808324:stack/futuristic-dev-20190910171819/e275bfe0-d3c0-11e9-915c-062161afda6c"
+        },
+        "categories": {
+            "auth": {
+                "cognito0cc1f5ed": {}
+            }
         }
     }
 }
