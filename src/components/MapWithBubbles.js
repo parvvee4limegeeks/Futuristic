@@ -28,15 +28,15 @@ class BubbleMap extends Component {
 
     return (
       <ComposableMap
-        projectionConfig={{ scale: 205 }}
-        width={980}
+        projectionConfig={{ scale:1205 }}
+        width={551}
         height={551}
         style={{
           width: '100%',
           height: 'auto',
         }}
       >
-        <ZoomableGroup center={[0, 20]} disablePanning>
+        <ZoomableGroup center={[79,21]} disablePanning={false}>
           <Geographies geography={world50m}>
             {(geographies, projection) =>
               geographies.map(
@@ -44,6 +44,8 @@ class BubbleMap extends Component {
                   geography.id !== 'ATA' && (
                     <Geography
                       key={i}
+                      onMouseEnter={(data)=> console.log(data.properties.NAME_1)
+                      }
                       geography={geography}
                       projection={projection}
                       style={{
@@ -73,14 +75,15 @@ class BubbleMap extends Component {
           </Geographies>
           <Markers>
             {this.state.cities.map((city, i) => (
-              <Marker key={i} marker={city}>
+              <Marker onClick={()=> console.log(city.population)
+              } key={i} marker={city}>
                 <circle
                   cx={0}
                   cy={0}
                   r={cityScale(city.population)}
                   fill={secondaryColor}
                   stroke={secondaryColor}
-                  strokeWidth="2"
+                  strokeWidth="1"
                 />
               </Marker>
             ))}

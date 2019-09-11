@@ -31,7 +31,7 @@ class MainLayout extends React.Component {
 
       this.notificationSystem.addNotification({
         title: <MdImportantDevices />,
-        message: 'Welome to Reduction Admin!',
+        message: 'Sample Notifications to show the user incase of any notifications / alerts',
         level: 'info',
       });
     }, 1500);
@@ -44,10 +44,24 @@ class MainLayout extends React.Component {
       this.notificationSystem.addNotification({
         title: <MdLoyalty />,
         message:
-          'Reduction is carefully designed template powered by React and Bootstrap4!',
-        level: 'info',
+          'Yet another notification to show users.',
+        level: 'success',
       });
     }, 2500);
+
+
+    setTimeout(() => {
+      if (!this.notificationSystem) {
+        return;
+      }
+
+      this.notificationSystem.addNotification({
+        title: <MdLoyalty />,
+        message:
+          'Yet another notification to show users incase of error.',
+        level: 'error',
+      });
+    }, 1500);
   }
 
   // close sidebar when
