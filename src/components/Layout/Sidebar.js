@@ -95,6 +95,7 @@ const navItems = [
 
 const menuItems = [
   { to: '/', name: 'Dashboards', exact: true, Icon: MdDashboard, children: [  { to: '/', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
+  { to: '/sentiment', name: 'Sentiment Analysis', exact: true, Icon: MdDashboard },
   { to: '/cards', name: 'User Defined', exact: true, Icon: MdDashboard },
   { to: '/charts', name: 'Preset KPIS', exact: true, Icon: MdDashboard },
   { to: '/widgets', name: 'Product, Campaign, Geo, Customer, Competitor', exact: true, Icon: MdDashboard },

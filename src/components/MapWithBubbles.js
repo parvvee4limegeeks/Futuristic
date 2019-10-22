@@ -1,4 +1,4 @@
-import world50m from 'assets/geo-data/world-50m.json';
+import india50m from 'assets/geo-data/india.json';
 import cities from 'assets/geo-data/world-most-populous-cities.json';
 import { scaleLinear } from 'd3-scale';
 import React, { Component } from 'react';
@@ -28,7 +28,7 @@ class BubbleMap extends Component {
 
     return (
       <ComposableMap
-        projectionConfig={{ scale:1205 }}
+        projectionConfig={{ scale:1005 }}
         width={551}
         height={551}
         style={{
@@ -37,7 +37,7 @@ class BubbleMap extends Component {
         }}
       >
         <ZoomableGroup center={[79,21]} disablePanning={false}>
-          <Geographies geography={world50m}>
+          <Geographies geography={india50m}>
             {(geographies, projection) =>
               geographies.map(
                 (geography, i) =>
