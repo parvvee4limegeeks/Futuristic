@@ -6,6 +6,11 @@ import AuthPage from 'pages/AuthPage';
 import React from 'react';
 import componentQueries from 'react-component-queries';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+
+import BlowMoldingPage from './pages/zohopages1'
+import InjectionMoldingPage from './pages/zohopages2'
+import FundamentalDataPage from './pages/zohopages3'
+import PriceForecastPage from './pages/zohopages4'
 import './styles/reduction.scss';
 
 const AlertPage = React.lazy(() => import('pages/AlertPage'));
@@ -74,6 +79,17 @@ class App extends React.Component {
                 <Route exact path="/modals" component={ModalPage} />
                 <Route exact path="/forms" component={FormPage} />
                 <Route exact path="/input-groups" component={InputGroupPage} />
+                <Route exact path="/blow-molding" component={BlowMoldingPage} />
+                <Route exact path="/injection-molding" component={InjectionMoldingPage} />
+                <Route exact path="/price-forecasting" component={PriceForecastPage} />
+             
+                <Route exact path="/fundamental-data" component={FundamentalDataPage} />
+
+                <Route exact path="/charts" component={ChartPage} />
+                <Route exact path="/charts" component={ChartPage} />
+                <Route exact path="/charts" component={ChartPage} />
+                <Route exact path="/charts" component={ChartPage} />
+                <Route exact path="/charts" component={ChartPage} />
                 <Route exact path="/charts" component={ChartPage} />
               </React.Suspense>
             </MainLayout>

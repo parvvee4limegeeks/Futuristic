@@ -93,9 +93,28 @@ const navItems = [
 ];
 
 
+const priceTrends = 
+
+  { to: '#', name: 'Price Trends', exact: true, Icon: MdDashboard, children: [ 
+     { to: '/blow-molding', name: ' Blow Moulding', exact: true, Icon: MdDashboard },
+     { to: '/injection-molding', name: ' Injection Moulding', exact: true, Icon: MdDashboard },
+     { to: '/Fundamental-data', name: 'Fundamental Data', exact: true, Icon: MdDashboard },
+     { to: '/price-forecasting', name: ' Price Forecasting', exact: true, Icon: MdDashboard },
+
+ 
+
+
+
+]}
+
+
+
 const menuItems = [
   { to: '/', name: 'Dashboards', exact: true, Icon: MdDashboard, children: [  { to: '/', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
   { to: '/sentiment', name: 'Sentiment Analysis', exact: true, Icon: MdDashboard },
+  { to: '/price-forecasting', name: 'Price Predictions', exact: true, Icon: MdDashboard },
+
+
   { to: '/cards', name: 'User Defined', exact: true, Icon: MdDashboard },
   { to: '/charts', name: 'Preset KPIS', exact: true, Icon: MdDashboard },
   { to: '/widgets', name: 'Product, Campaign, Geo, Customer, Competitor', exact: true, Icon: MdDashboard },
@@ -103,7 +122,7 @@ const menuItems = [
   { to: '/user-progress-table', name: 'Market Update', exact: true, Icon: MdDashboard },
   { to: '/forms', name: 'News Time Machine', exact: true, Icon: MdDashboard },
   { to: '/buttons', name: 'Social Media', exact: true, Icon: MdDashboard },
-  { to: '/tables', name: 'Price Predictions', exact: true, Icon: MdDashboard },
+
   { to: '/modals', name: 'Key Drivers', exact: true, Icon: MdDashboard },
   { to: '/', name: 'Volume Revenue Profit', exact: true, Icon: MdDashboard },
   { to: '/', name: 'Cost Structures', exact: true, Icon: MdDashboard }] },
@@ -124,6 +143,9 @@ const menuItems = [
   //   6. Visualization
   // Access Control
  },
+
+ priceTrends,
+
   { to: '/', name: 'Decisions', exact: true, Icon: MdDashboard, children: [
   //   • Automated Pricing Guidance
   //   • Price Now
