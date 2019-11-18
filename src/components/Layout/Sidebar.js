@@ -110,31 +110,33 @@ const priceTrends =
 
 
 const menuItems = [
-  { to: '/', name: 'Dashboards', exact: true, Icon: MdDashboard, children: [  { to: '/', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
+  { to: '/sentiment', name: 'Dashboards', exact: true, Icon: MdDashboard, children: [  { to: '/sentiment', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
   { to: '/sentiment', name: 'Sentiment Analysis', exact: true, Icon: MdDashboard },
   { to: '/price-forecasting', name: 'Price Predictions', exact: true, Icon: MdDashboard },
 
 
-  { to: '/cards', name: 'User Defined', exact: true, Icon: MdDashboard },
-  { to: '/charts', name: 'Preset KPIS', exact: true, Icon: MdDashboard },
-  { to: '/widgets', name: 'Product, Campaign, Geo, Customer, Competitor', exact: true, Icon: MdDashboard },
-  { to: '/typography', name: 'Last Leg', exact: true, Icon: MdDashboard },
-  { to: '/user-progress-table', name: 'Market Update', exact: true, Icon: MdDashboard },
-  { to: '/forms', name: 'News Time Machine', exact: true, Icon: MdDashboard },
-  { to: '/buttons', name: 'Social Media', exact: true, Icon: MdDashboard },
+  // { to: '/cards', name: 'User Defined', exact: true, Icon: MdDashboard },
+  // { to: '/charts', name: 'Preset KPIS', exact: true, Icon: MdDashboard },
+  // { to: '/widgets', name: 'Product, Campaign, Geo, Customer, Competitor', exact: true, Icon: MdDashboard },
+  // { to: '/typography', name: 'Last Leg', exact: true, Icon: MdDashboard },
+  // { to: '/user-progress-table', name: 'Market Update', exact: true, Icon: MdDashboard },
+  // { to: '/forms', name: 'News Time Machine', exact: true, Icon: MdDashboard },
+  // { to: '/buttons', name: 'Social Media', exact: true, Icon: MdDashboard },
 
-  { to: '/modals', name: 'Key Drivers', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Volume Revenue Profit', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Cost Structures', exact: true, Icon: MdDashboard }] },
-  { to: '/', name: 'Data', exact: true, Icon: MdDashboard, children: [
+  // { to: '/modals', name: 'Key Drivers', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Volume Revenue Profit', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Cost Structures', exact: true, Icon: MdDashboard }] },
+  // { to: '/', name: 'Data', exact: true, Icon: MdDashboard, children: [
 
-    { to: '/', name: 'Data Integration', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Data Extraction', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Outgoing & Apis', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Data Validations', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Automation', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Visualization', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Access Control', exact: true, Icon: MdDashboard }] ,
+  //   { to: '/', name: 'Data Integration', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Data Extraction', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Outgoing & Apis', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Data Validations', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Automation', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Visualization', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Access Control', exact: true, Icon: MdDashboard }
+  
+  ] ,
   //   1. Data Integration
   //   2. Data Extraction
   //   3. Outgoing & Apis
@@ -146,7 +148,7 @@ const menuItems = [
 
  priceTrends,
 
-  { to: '/', name: 'Decisions', exact: true, Icon: MdDashboard, children: [
+  // { to: '/', name: 'Decisions', exact: true, Icon: MdDashboard, children: [
   //   • Automated Pricing Guidance
   //   • Price Now
   //   • Sensitivity Analysis
@@ -158,39 +160,39 @@ const menuItems = [
   //   • Overriding Decisions
   // Promotion
 
-  { to: '/', name: 'Automatic Pricing Guidance', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Price Now', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Sensitivity Analysis', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Grab Oppurtunity', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Fix Margin Leakage', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'New Launch', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Simulate', exact: true, Icon: MdDashboard } ,
-  { to: '/', name: 'What is Next', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Overriding Decisions', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Promotion', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Automatic Pricing Guidance', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Price Now', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Sensitivity Analysis', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Grab Oppurtunity', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Fix Margin Leakage', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'New Launch', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Simulate', exact: true, Icon: MdDashboard } ,
+  // { to: '/', name: 'What is Next', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Overriding Decisions', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Promotion', exact: true, Icon: MdDashboard },
 
-  ] },
-  { to: '/', name: 'Reports', exact: true, Icon: MdDashboard, children: [
+  // ] },
+  // { to: '/', name: 'Reports', exact: true, Icon: MdDashboard, children: [
 
 
-    { to: '/', name: 'Automated Reports', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'User Reports', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'IOCL Reports', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Commodity Analytics', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Price Analytics', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Cascading Effect', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Cross Location Profitability Update', exact: true, Icon: MdDashboard } ,
-    { to: '/', name: 'Volume Revenue Profit Trends', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Margin Leakage Report', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Oppurtunity Finder', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Accuracy Reports', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Comparision & Deviation Reports', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'What If Analysis', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Potential Move Simulator', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Key Drivers B2B B2C', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Tender Win Loss Trends', exact: true, Icon: MdDashboard },
-  { to: '/', name: 'Campaign Effectiveness', exact: true, Icon: MdDashboard } ,
-  { to: '/', name: 'Price Forecasting', exact: true, Icon: MdDashboard }
+  //   { to: '/', name: 'Automated Reports', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'User Reports', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'IOCL Reports', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Commodity Analytics', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Price Analytics', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Cascading Effect', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Cross Location Profitability Update', exact: true, Icon: MdDashboard } ,
+  //   { to: '/', name: 'Volume Revenue Profit Trends', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Margin Leakage Report', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Oppurtunity Finder', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Accuracy Reports', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Comparision & Deviation Reports', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'What If Analysis', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Potential Move Simulator', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Key Drivers B2B B2C', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Tender Win Loss Trends', exact: true, Icon: MdDashboard },
+  // { to: '/', name: 'Campaign Effectiveness', exact: true, Icon: MdDashboard } ,
+  // { to: '/', name: 'Price Forecasting', exact: true, Icon: MdDashboard }
 
   //   1. Automated Reports
   //   2. User Reports
@@ -213,8 +215,8 @@ const menuItems = [
 
 
 
-  ] },
-  { to: '/', name: 'Alerts', exact: true, Icon: MdDashboard, children: [
+  // ] },
+  // { to: '/', name: 'Alerts', exact: true, Icon: MdDashboard, children: [
 
 
   //   1. Alerts
@@ -226,15 +228,15 @@ const menuItems = [
   //   7. Price Deltas
   //   8. Parity
   // Tender Win Loss
-    { to: '/', name: 'Margin Deltas', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Margin Leakage', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Overriding', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Cascading Effects', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'IOCL Vs Market Vs Competitor Price', exact: true, Icon: MdDashboard },
-    { to: '/', name: 'Price Deltas', exact: true, Icon: MdDashboard } ,
-    { to: '/', name: 'Parity', exact: true, Icon: MdDashboard } ,
-    { to: '/', name: 'Tender Win Loss', exact: true, Icon: MdDashboard } 
-  ] },
+  //   { to: '/', name: 'Margin Deltas', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Margin Leakage', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Overriding', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Cascading Effects', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'IOCL Vs Market Vs Competitor Price', exact: true, Icon: MdDashboard },
+  //   { to: '/', name: 'Price Deltas', exact: true, Icon: MdDashboard } ,
+  //   { to: '/', name: 'Parity', exact: true, Icon: MdDashboard } ,
+  //   { to: '/', name: 'Tender Win Loss', exact: true, Icon: MdDashboard } 
+  // ] },
 
 
 ]

@@ -5,6 +5,8 @@
   "private": false,
   "homepage": "http://d2i3nxeqhwa7tc.cloudfront.net/",
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
     "axios": "^0.19.0",
     "bootstrap": "4.3.1",
     "chart.js": "2.8.0",
@@ -22,6 +24,7 @@
     "react-d3-cloud": "^0.7.0",
     "react-d3-map": "^0.8.3",
     "react-dom": "^16.10.2",
+    "react-emotion": "^10.0.0",
     "react-ga": "^2.5.7",
     "react-icons": "^3.5.0",
     "react-iframe": "^1.8.0",

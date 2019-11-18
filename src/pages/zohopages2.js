@@ -1,6 +1,17 @@
 import React, { Component } from 'react'
 import IFrame from 'react-iframe'
+import styled from '@emotion/styled'
 import { Card, CardBody, CardHeader, Col, Row, Table } from 'reactstrap';
+
+
+const BorderLessIframe = styled(IFrame)`
+    border-width: 0;
+    width: "100%";
+    height: "100%"
+`;
+
+
+
 export default class zohopages1 extends Component {
     render() {
         return (
@@ -15,8 +26,8 @@ export default class zohopages1 extends Component {
                  
                  
 
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007044038/f3bd2e4883ad0ecaa9832cab33c372d1"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007044038/f3bd2e4883ad0ecaa9832cab33c372d1"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
@@ -33,8 +44,8 @@ export default class zohopages1 extends Component {
                 <CardHeader>{'Injection Moulding High MFI Geo Map'}</CardHeader>
                 <CardBody>
                  
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007071308/6155188d0cc7a0204b965bd7f00b3be9"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071308/6155188d0cc7a0204b965bd7f00b3be9"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
@@ -53,8 +64,8 @@ export default class zohopages1 extends Component {
                  
                  
 
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007071610"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071610/a43349c8e8167139a39d73fad4911fb1"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
@@ -73,8 +84,8 @@ export default class zohopages1 extends Component {
                  
                  
 
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007071168/1cd67972f73a2b3709d251b06ff5490d"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071168/1cd67972f73a2b3709d251b06ff5490d"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
@@ -94,8 +105,8 @@ export default class zohopages1 extends Component {
                  
                  
 
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007071722/6a046e3a48ae21b88646620d92e43700"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071722/6a046e3a48ae21b88646620d92e43700"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
@@ -115,8 +126,8 @@ export default class zohopages1 extends Component {
                  
                  
 
-            <IFrame url="https://analytics.zoho.com/open-view/1254398000007044173/b69190d4193c5b5037d82893f3cccd4b"
-             width="550px"
+            <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007044173/b69190d4193c5b5037d82893f3cccd4b"
+             width="470px"
              height="450px"
             id="myId"
             className="myClassname"
