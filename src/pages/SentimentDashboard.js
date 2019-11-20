@@ -121,7 +121,7 @@ const negdataSetObjForBar =  {
     backgroundColor: getColor('danger'),
     width: 20,
    
-    data: positiveDataSet
+    data: negativeDataSet
 };
 
 const neutralDataSetObjForBar = {
@@ -738,7 +738,7 @@ caret
             <CardBody >
             {this.props.sentStats != null &&    this.props.sentStats.tweetStats!= null ? <Bubble options={{ 
             legend: {
-                display: this.props.sentStats.tweetStats.length > 250 ?   false : true,
+                display: false,
             },
       tooltips: {
 
