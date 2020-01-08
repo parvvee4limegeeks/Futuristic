@@ -307,7 +307,7 @@ class Sidebar extends React.Component {
           <Navbar>
             <SourceLink className="navbar-brand d-flex">
               <span className="text-white">
-                POC For IOC 
+                Transgraph Suite
               </span>
             </SourceLink>
           </Navbar>

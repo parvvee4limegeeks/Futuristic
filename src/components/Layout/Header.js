@@ -135,8 +135,9 @@ class Header extends React.Component {
             >
               <PopoverBody className="p-0 border-light">
                 <UserCard
-                  title="Jane"
-                  subtitle="jane@jane.com"
+                  
+                  title="Ravichandra N"
+                  subtitle="ravichandra@transgraph.com"
                   text="Last updated 3 mins ago"
                   className="border-light"
                 >
