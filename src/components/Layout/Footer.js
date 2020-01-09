@@ -10,7 +10,7 @@ const Footer = () => {
     <Navbar style={{backgroundColor:'#fff', textAlign:'center'}}>
       <Nav navbar style={{textAlign:'center',alignSelf:'center', flex: 1}}>
         <NavItem style={{textAlign:'center'}}>
-         Work in Progress By <SourceLink> <span style={{color:'#7fab4e'}}>LIME</span><span style={{fontWeight:'bolder', color:'gray'}}>GEEKS </span> </SourceLink>
+          <div> <span >TransGraph Consulting </span><span >Private Limited </span> </div>
         </NavItem>
       </Nav>
     </Navbar>

@@ -12,6 +12,7 @@ import InjectionMoldingPage from './pages/zohopages2'
 import FundamentalDataPage from './pages/zohopages3'
 import PriceForecastPage from './pages/zohopages4'
 import './styles/reduction.scss';
+import TenderAnalysis from './pages/TenderAnalysis';
 
 const AlertPage = React.lazy(() => import('pages/AlertPage'));
 const AuthModalPage = React.lazy(() => import('pages/AuthModalPage'));
@@ -69,6 +70,8 @@ class App extends React.Component {
                 <Route exact path="/alerts" component={AlertPage} />
                 <Route exact path="/tables" component={TablePage} />
                 <Route exact path="/badges" component={BadgePage} />
+                <Route exact path="/tender-analysis" component={TenderAnalysis} />
+
                 <Route
                   exact
                   path="/button-groups"

@@ -27,7 +27,7 @@ export default class zohopages1 extends Component {
                  
 
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007044038/f3bd2e4883ad0ecaa9832cab33c372d1"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
@@ -45,7 +45,7 @@ export default class zohopages1 extends Component {
                 <CardBody>
                  
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071308/6155188d0cc7a0204b965bd7f00b3be9"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
@@ -65,7 +65,7 @@ export default class zohopages1 extends Component {
                  
 
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071610/a43349c8e8167139a39d73fad4911fb1"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
@@ -85,7 +85,7 @@ export default class zohopages1 extends Component {
                  
 
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071168/1cd67972f73a2b3709d251b06ff5490d"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
@@ -106,7 +106,7 @@ export default class zohopages1 extends Component {
                  
 
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007071722/6a046e3a48ae21b88646620d92e43700"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
@@ -127,7 +127,7 @@ export default class zohopages1 extends Component {
                  
 
             <BorderLessIframe url="https://analytics.zoho.com/open-view/1254398000007044173/b69190d4193c5b5037d82893f3cccd4b"
-             width="470px"
+             width="100%"
              height="450px"
             id="myId"
             className="myClassname"
