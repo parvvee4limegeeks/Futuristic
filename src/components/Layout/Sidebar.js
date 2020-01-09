@@ -48,59 +48,58 @@ const sidebarBackground = {
 
 
 
-const navComponents = [
-  { to: '/buttons', name: 'buttons', exact: false, Icon: MdRadioButtonChecked },
-  {
-    to: '/button-groups',
-    name: 'button groups',
-    exact: false,
-    Icon: MdGroupWork,
-  },
-  { to: '/forms', name: 'forms', exact: false, Icon: MdChromeReaderMode },
-  { to: '/input-groups', name: 'input groups', exact: false, Icon: MdViewList },
-  {
-    to: '/dropdowns',
-    name: 'dropdowns',
-    exact: false,
-    Icon: MdArrowDropDownCircle,
-  },
-  { to: '/badges', name: 'badges', exact: false, Icon: MdStar },
-  { to: '/alerts', name: 'alerts', exact: false, Icon: MdNotificationsActive },
-  { to: '/progress', name: 'progress', exact: false, Icon: MdBrush },
-  { to: '/modals', name: 'modals', exact: false, Icon: MdViewDay },
-];
+// const navComponents = [
+//   { to: '/buttons', name: 'buttons', exact: false, Icon: MdRadioButtonChecked },
+//   {
+//     to: '/button-groups',
+//     name: 'button groups',
+//     exact: false,
+//     Icon: MdGroupWork,
+//   },
+//   { to: '/forms', name: 'forms', exact: false, Icon: MdChromeReaderMode },
+//   { to: '/input-groups', name: 'input groups', exact: false, Icon: MdViewList },
+//   {
+//     to: '/dropdowns',
+//     name: 'dropdowns',
+//     exact: false,
+//     Icon: MdArrowDropDownCircle,
+//   },
+//   { to: '/badges', name: 'badges', exact: false, Icon: MdStar },
+//   { to: '/alerts', name: 'alerts', exact: false, Icon: MdNotificationsActive },
+//   { to: '/progress', name: 'progress', exact: false, Icon: MdBrush },
+//   { to: '/modals', name: 'modals', exact: false, Icon: MdViewDay },
+// ];
 
-const navContents = [
-  { to: '/typography', name: 'typography', exact: false, Icon: MdTextFields },
-  { to: '/tables', name: 'tables', exact: false, Icon: MdBorderAll },
-];
+// const navContents = [
+//   { to: '/typography', name: 'typography', exact: false, Icon: MdTextFields },
+//   { to: '/tables', name: 'tables', exact: false, Icon: MdBorderAll },
+// ];
 
-const pageContents = [
-  { to: '/login', name: 'login / signup', exact: false, Icon: MdAccountCircle },
-  {
-    to: '/login-modal',
-    name: 'login modal',
-    exact: false,
-    Icon: MdViewCarousel,
-  },
-];
+// const pageContents = [
+//   { to: '/login', name: 'login / signup', exact: false, Icon: MdAccountCircle },
+//   {
+//     to: '/login-modal',
+//     name: 'login modal',
+//     exact: false,
+//     Icon: MdViewCarousel,
+//   },
+// ];
 
-const navItems = [
-  { to: '/', name: 'dashboard', exact: true, Icon: MdDashboard },
-  { to: '/cards', name: 'cards', exact: false, Icon: MdWeb },
-  { to: '/charts', name: 'charts', exact: false, Icon: MdInsertChart },
-  { to: '/widgets', name: 'widgets', exact: false, Icon: MdWidgets },
-];
+// const navItems = [
+//   { to: '/', name: 'dashboard', exact: true, Icon: MdDashboard },
+//   { to: '/cards', name: 'cards', exact: false, Icon: MdWeb },
+//   { to: '/charts', name: 'charts', exact: false, Icon: MdInsertChart },
+//   { to: '/widgets', name: 'widgets', exact: false, Icon: MdWidgets },
+// ];
 
 
 const priceTrends = 
 
-  { to: '#', name: 'Price Trends', exact: true, Icon: MdDashboard, children: [ 
+  { to: '#', name: 'Price Analytics', exact: true, Icon: MdDashboard, children: [ 
      { to: '/blow-molding', name: ' Blow Moulding', exact: true, Icon: MdDashboard },
      { to: '/injection-molding', name: ' Injection Moulding', exact: true, Icon: MdDashboard },
      { to: '/Fundamental-data', name: 'Fundamental Data', exact: true, Icon: MdDashboard },
-     { to: '/price-forecasting', name: ' Price Forecasting', exact: true, Icon: MdDashboard },
-
+    
  
 
 
@@ -109,10 +108,18 @@ const priceTrends =
 
 
 
+const b2cMenuItems=   {
+
+  to: '/', name: ' B2C', exact: true, Icon: MdDashboard ,
+
+};
+
 const menuItems = [
-  { to: '/sentiment', name: 'Dashboards', exact: true, Icon: MdDashboard, children: [  { to: '/sentiment', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
+  { to: '/sentiment', name: 'B2B', exact: true, Icon: MdDashboard,
+   children: [ 
   { to: '/sentiment', name: 'Sentiment Analysis', exact: true, Icon: MdDashboard },
   { to: '/price-forecasting', name: 'Price Predictions', exact: true, Icon: MdDashboard },
+  {to: '/tender-analysis', name: 'Tender Analysis', exact : true, Icon: MdDashboard}
 
 
   // { to: '/cards', name: 'User Defined', exact: true, Icon: MdDashboard },
@@ -147,6 +154,7 @@ const menuItems = [
  },
 
  priceTrends,
+ b2cMenuItems
 
   // { to: '/', name: 'Decisions', exact: true, Icon: MdDashboard, children: [
   //   • Automated Pricing Guidance
@@ -242,6 +250,10 @@ const menuItems = [
 ]
 
 
+
+
+
+
 const dashboardMenuItems= [
   { to: '/', name: ' BI Visualizations', exact: true, Icon: MdDashboard },
   { to: '/', name: 'User Defined', exact: true, Icon: MdDashboard },
@@ -272,6 +284,9 @@ const dashboardMenuItems= [
 // Cost Structures
 
 ];
+
+
+
 
 
 const bem = bn.create('sidebar');
@@ -307,7 +322,7 @@ class Sidebar extends React.Component {
           <Navbar>
             <SourceLink className="navbar-brand d-flex">
               <span className="text-white">
-                POC For IOC 
+                TransGraph Suite
               </span>
             </SourceLink>
           </Navbar>
